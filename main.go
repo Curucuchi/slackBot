@@ -28,7 +28,7 @@ func main() {
 	var q Quote
 	json.Unmarshal(read, &q)
 
-	OAUTH_TOKEN := "xoxb-2485850931159-2500608011667-q5VkARnrpZiKyUEeO0AfiER6"
+	OAUTH_TOKEN := ""
 	CHANNEL_ID := "C02EQGWC6HY"
 
 	api := slack.New(OAUTH_TOKEN)
